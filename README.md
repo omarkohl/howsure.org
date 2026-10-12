@@ -11,11 +11,11 @@
 
 ## Use It
 
-**[w.ratfr.de](https://w.ratfr.de)** — works on any device, no installation needed. The site has two tools: the wager calculator (below) and [How sure are you?](#how-sure-are-you). See the [FAQ](https://w.ratfr.de/wager) of the wager calculator for detailed explanations.
+**[howsure.org](https://howsure.org)** — works on any device, no installation needed. The site has two tools: the wager calculator (below) and [How sure are you?](#how-sure-are-you). See the [FAQ](https://howsure.org/wager) of the wager calculator for detailed explanations.
 
 <a href="docs/screenshot.png"><img src="docs/screenshot.png" width="50%" alt="Screenshot"></a>
 
-Wagers can easily be shared via the URL. [Here](https://w.ratfr.de/#v=2&c=Who+will+become+the+next+mayor+of+Gotham+City%3F&d=Elections+will+be+held+in+November+of+2025.+This+bet+will+resolve+on+November+25th+2025.&s=usd&pn=Bruce%2CAlfred%2CClark&pb=3000%2C45%2C50&ol=Brunette+Nella%2CRob+Bones%2CAntonia+De+Ireland%2COther&pp=58%2C26%2C15%2C1%2C27%2C43%2C23%2C7%2C58%2C34%2C2%2C6&r=1) you can see the wager of the screenshot above.
+Wagers can easily be shared via the URL. [Here](https://howsure.org/#v=2&c=Who+will+become+the+next+mayor+of+Gotham+City%3F&d=Elections+will+be+held+in+November+of+2025.+This+bet+will+resolve+on+November+25th+2025.&s=usd&pn=Bruce%2CAlfred%2CClark&pb=3000%2C45%2C50&ol=Brunette+Nella%2CRob+Bones%2CAntonia+De+Ireland%2COther&pp=58%2C26%2C15%2C1%2C27%2C43%2C23%2C7%2C58%2C34%2C2%2C6&r=1) you can see the wager of the screenshot above.
 
 ## What It Does
 
@@ -34,7 +34,7 @@ A second tool, **How sure are you?**, helps you put a number on how likely you t
 
 This app is a PWA — it can be installed on your device and works offline. Once installed, it behaves like a native app with its own icon and window.
 
-**To install:** Look for an install button in your browser's address bar or menu (often labeled "Install" or "Add to Home Screen") when you visit [w.ratfr.de](https://w.ratfr.de).
+**To install:** Look for an install button in your browser's address bar or menu (often labeled "Install" or "Add to Home Screen") when you visit [howsure.org](https://howsure.org).
 
 [Learn more about installing PWAs](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable)
 
@@ -52,7 +52,7 @@ Alice predicted best, Bob worst. Result: Alice wins $11.20, Carol wins $1.60, Bo
 
 The key property: reporting your true belief always maximizes your expected payout.
 
-You can find a detailed calculation example in the [FAQ](https://w.ratfr.de/#faq=calculation) in the app.
+You can find a detailed calculation example in the [FAQ](https://howsure.org/#faq=calculation) in the app.
 
 ---
 
