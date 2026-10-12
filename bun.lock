@@ -3,7 +3,7 @@
   "configVersion": 0,
   "workspaces": {
     "": {
-      "name": "wager-calculator",
+      "name": "howsure-tools",
       "dependencies": {
         "@headlessui/react": "^2.2.10",
         "@heroicons/react": "^2.2.0",

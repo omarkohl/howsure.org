@@ -337,7 +337,7 @@ describe('the remembered stake', () => {
     expect(getSavedElicitStake()).toBeNull()
     saveElicitStake({ amount: '25', currency: 'eur' })
     expect(getSavedElicitStake()).toEqual({ amount: '25', currency: 'eur' })
-    expect(localStorage.getItem('wager-calculator.stakes')).toBeNull()
+    expect(localStorage.getItem('howsure.stakes')).toBeNull()
   })
 
   it('ignores invalid values, stored or given', () => {

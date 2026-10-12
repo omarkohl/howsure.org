@@ -7,7 +7,7 @@ import { buildHandoff } from './domain/elicitation/handoff'
 import { bandBetween } from './domain/elicitation/logOdds'
 import { encodeWagerToHash } from './storage/urlHash'
 
-const STAKES_STORAGE_KEY = 'wager-calculator.stakes'
+const STAKES_STORAGE_KEY = 'howsure.stakes'
 
 describe('App', () => {
   it('renders the header', () => {

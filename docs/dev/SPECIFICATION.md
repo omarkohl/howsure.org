@@ -242,7 +242,7 @@ Bets can have up to 8 outcomes with the default being 2, Yes and No.
 ### Recommended Project Structure
 
 ```
-wager-calculator/
+howsure.org/
 ├── src/
 │   ├── components/         # React UI components (unit tests live next to them)
 │   │   └── elicit/         # The screens of tool 2 (see HOWSURE-SPEC.md)

@@ -1,4 +1,4 @@
-const STAKES_STORAGE_KEY = 'wager-calculator.stakes'
+const STAKES_STORAGE_KEY = 'howsure.stakes'
 
 export function getSavedStakes(): string | null {
   try {
