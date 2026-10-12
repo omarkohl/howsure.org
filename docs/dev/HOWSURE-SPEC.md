@@ -12,6 +12,28 @@ placeholders. `/` is a small landing page linking the tools, `/wager` is the wag
 the hash kept. The base path comes from the build variable `BASE_PATH` (default `/`); GitHub
 Pages deep links work because `404.html` is a copy of `index.html`.
 
+### Why one app
+
+All tools live in one app, one PWA, one domain (howsure.org; wagercalc.org redirects to the wager
+calculator), one repo.
+
+- The audience overlaps; a tool switcher inside one shell is where discoverability happens.
+- Components and conventions are shared (probability input, decimal.js, URL state, PWA shell, FAQ).
+- A later backend (wagers per user) needs one account, one session and one sync layer. Separate
+  origins would mean cookie scoping, CORS, and several deploys that must agree on auth.
+- Splitting a repo with clean tool boundaries later is easy; merging deployed apps is not.
+
+Rejected:
+
+- **Separate PWAs on subpaths.** The root service worker's `navigateFallback` would take over
+  navigations into other tools' subpaths when offline. It also means several install prompts,
+  icons and update cycles, and GitHub Pages binds a custom domain to exactly one site.
+- **Subdomains.** Switching tools is a full page load, installed PWAs hand the user to a browser
+  tab when leaving their scope, and the backend inherits the cookie and CORS cost.
+
+Still open: how heavy the Bayesian updater (tool 3) gets. If it is far larger than the other
+tools, revisit this decision.
+
 ## What the user does
 
 1. **Gate.** The claim, a stake (an amount in a currency of the stakes catalog, remembered in
