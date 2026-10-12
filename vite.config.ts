@@ -48,8 +48,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.png', 'apple-touch-icon.png', 'og-image.png'],
       manifest: {
-        name: 'Wager Calculator',
-        short_name: 'Wager',
+        name: 'HowSure Tools',
+        short_name: 'HowSure',
         description: 'Calculate fair betting odds for friendly wagers using Brier scoring',
         theme_color: '#18181b',
         background_color: '#18181b',

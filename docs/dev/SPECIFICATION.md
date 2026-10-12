@@ -1,4 +1,4 @@
-# Wager Calculator Application Specification
+# HowSure Tools: Wager Calculator Specification
 
 ## Overview
 

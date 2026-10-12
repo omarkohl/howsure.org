@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/omarkohl/wager-calculator.git"
+    "url": "git+https://github.com/omarkohl/howsure.org.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/omarkohl/wager-calculator/issues"
+    "url": "https://github.com/omarkohl/howsure.org/issues"
   },
-  "homepage": "https://github.com/omarkohl/wager-calculator#readme",
+  "homepage": "https://github.com/omarkohl/howsure.org#readme",
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
     "@eslint/js": "^9.39.5",

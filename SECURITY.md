@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-We actively support the following versions of the Wager Calculator:
+We actively support the following versions of HowSure Tools:
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -10,7 +10,7 @@ We actively support the following versions of the Wager Calculator:
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in the Wager Calculator, please report it responsibly:
+If you discover a security vulnerability in HowSure Tools, please report it responsibly:
 
 ### For Security Issues:
 

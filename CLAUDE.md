@@ -1,4 +1,4 @@
-# Wager Calculator
+# HowSure Tools
 
 Brier scoring calculator for friendly wagers. PWA with React + TypeScript + Tailwind.
 
@@ -73,7 +73,7 @@ every step commit becomes its own PR, stacked on the previous step's PR:
   `git push -u origin <branch>`, and open the PR with the REST API (`gh pr` is blocked):
 
   ```sh
-  gh api repos/omarkohl/wager-calculator/pulls -f title='<commit subject>' \
+  gh api repos/omarkohl/howsure.org/pulls -f title='<commit subject>' \
     -f head=<branch> -f base=<previous step branch, or main for the first> -f body='<body>'
   ```
 
@@ -84,7 +84,7 @@ every step commit becomes its own PR, stacked on the previous step's PR:
 - If the session was given its own branch name, keep that branch pointing at the top of
   the stack and push it too.
 - Before each step: `git fetch`, then check CI of the open stack PRs
-  (`gh api repos/omarkohl/wager-calculator/commits/<sha>/check-runs`). A red check, or a
+  (`gh api repos/omarkohl/howsure.org/commits/<sha>/check-runs`). A red check, or a
   later finding, in an already pushed step is fixed in that step's commit:
   `git commit --fixup=<sha>`, then
   `GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash --update-refs origin/main`, then

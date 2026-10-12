@@ -133,9 +133,9 @@ describe('Site routing', () => {
     it('sets the document title per route', async () => {
       visit('/nope')
       render(<Site />)
-      expect(document.title).toBe('Page not found – Wager Calculator')
+      expect(document.title).toBe('Page not found – HowSure Tools')
       await userEvent.click(within(screen.getByRole('main')).getByRole('link', { name: /home/i }))
-      expect(document.title).toBe('Home – Wager Calculator')
+      expect(document.title).toBe('Home – HowSure Tools')
     })
 
     it('does not move focus or announce anything on the first render', () => {

@@ -1,6 +1,6 @@
-# Contributing to Wager Calculator
+# Contributing to HowSure Tools
 
-Thank you for your interest in contributing to the Wager Calculator! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to HowSure Tools! This document provides guidelines and information for contributors.
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ By participating in this project, you agree to abide by our Code of Conduct:
 ### Development Setup
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/omarkohl/wager-calculator.git`
+2. Clone your fork: `git clone https://github.com/omarkohl/howsure.org.git`
 3. Start development server: `make dev`
 4. Run tests: `make test`
 

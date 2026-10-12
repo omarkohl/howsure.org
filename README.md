@@ -2,11 +2,11 @@
   <img src="public/icon-192.png" width="96" height="96" alt="Logo">
 </p>
 
-<h1 align="center">Wager Calculator</h1>
+<h1 align="center">HowSure Tools</h1>
 
 <p align="center">Calculate fair betting odds for friendly wagers using Brier scoring.</p>
 
-[![CI](https://github.com/omarkohl/wager-calculator/workflows/CI/badge.svg)](https://github.com/omarkohl/wager-calculator/actions)
+[![CI](https://github.com/omarkohl/howsure.org/workflows/CI/badge.svg)](https://github.com/omarkohl/howsure.org/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Use It

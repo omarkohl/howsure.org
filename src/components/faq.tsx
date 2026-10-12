@@ -182,7 +182,7 @@ export const FAQ_ENTRIES = [
         <p>
           We're considering adding direct support for probability distributions as input. If you'd
           like this feature, please vote or comment{' '}
-          {link('https://github.com/omarkohl/wager-calculator/issues/6', 'here')}.
+          {link('https://github.com/omarkohl/howsure.org/issues/6', 'here')}.
         </p>
       </>
     ),

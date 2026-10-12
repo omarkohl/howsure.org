@@ -78,7 +78,7 @@ function NotFound() {
   )
 }
 
-const SITE_NAME = 'Wager Calculator'
+const SITE_NAME = 'HowSure Tools'
 
 /** Tab title of the routes that do not set their own (the calculator shows its claim). */
 function titleFor(route: RouteId): string {

@@ -8,18 +8,18 @@ describe('Footer', () => {
       <Footer
         commitDate="2025-12-22"
         commitHash="95a8b663"
-        repoUrl="https://github.com/omarkohl/wager-calculator"
+        repoUrl="https://github.com/omarkohl/howsure.org"
       />
     )
 
     const versionLink = screen.getByRole('link', { name: /2025-12-22 \(95a8b663\)/ })
     expect(versionLink).toHaveAttribute(
       'href',
-      'https://github.com/omarkohl/wager-calculator/commit/95a8b663'
+      'https://github.com/omarkohl/howsure.org/commit/95a8b663'
     )
 
     const bugLink = screen.getByRole('link', { name: /Report a bug/ })
-    expect(bugLink).toHaveAttribute('href', 'https://github.com/omarkohl/wager-calculator/issues')
+    expect(bugLink).toHaveAttribute('href', 'https://github.com/omarkohl/howsure.org/issues')
   })
 
   it('renders version without link when repoUrl is missing', () => {
