@@ -4,14 +4,19 @@
 
 <h1 align="center">HowSure Tools</h1>
 
-<p align="center">Small tools for thinking clearly about what you believe, and for backing it with a bet.</p>
+<p align="center">Two tools: a calculator for fair friendly wagers, and a way to find out how sure you are.</p>
 
 [![CI](https://github.com/omarkohl/howsure.org/workflows/CI/badge.svg)](https://github.com/omarkohl/howsure.org/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Purpose
 
-People often disagree, or claim to be sure, without ever saying how sure. HowSure Tools helps you put a number on a belief ("How sure are you?") and then, if you like, settle a friendly wager about it fairly (the wager calculator). The aim is honest, calibrated beliefs and accountability for them.
+People often disagree, or claim to be sure, without ever saying how sure. HowSure Tools has two tools for this:
+
+- **Wager calculator**: settle a friendly wager fairly, whatever each side believes.
+- **How sure are you?**: put a number on a belief, by choosing between prizes. The result can go straight into a wager.
+
+The aim is honest, calibrated beliefs and accountability for them.
 
 ## Use It
 
@@ -19,7 +24,7 @@ People often disagree, or claim to be sure, without ever saying how sure. HowSur
 
 <a href="docs/screenshot.png"><img src="docs/screenshot.png" width="50%" alt="Screenshot"></a>
 
-Wagers can easily be shared via the URL. [Here](https://howsure.org/#v=2&c=Who+will+become+the+next+mayor+of+Gotham+City%3F&d=Elections+will+be+held+in+November+of+2025.+This+bet+will+resolve+on+November+25th+2025.&s=usd&pn=Bruce%2CAlfred%2CClark&pb=3000%2C45%2C50&ol=Brunette+Nella%2CRob+Bones%2CAntonia+De+Ireland%2COther&pp=58%2C26%2C15%2C1%2C27%2C43%2C23%2C7%2C58%2C34%2C2%2C6&r=1) you can see the wager of the screenshot above.
+Wagers can easily be shared via the URL. [Here](https://howsure.org/wager#v=2&c=Who+will+become+the+next+mayor+of+Gotham+City%3F&d=Elections+will+be+held+in+November+of+2025.+This+bet+will+resolve+on+November+25th+2025.&s=usd&pn=Bruce%2CAlfred%2CClark&pb=3000%2C45%2C50&ol=Brunette+Nella%2CRob+Bones%2CAntonia+De+Ireland%2COther&pp=58%2C26%2C15%2C1%2C27%2C43%2C23%2C7%2C58%2C34%2C2%2C6&r=1) you can see the wager of the screenshot above.
 
 ## What It Does
 
@@ -56,7 +61,7 @@ Alice predicted best, Bob worst. Result: Alice wins $11.20, Carol wins $1.60, Bo
 
 The key property: reporting your true belief always maximizes your expected payout.
 
-You can find a detailed calculation example in the [FAQ](https://howsure.org/#faq=calculation) in the app.
+You can find a detailed calculation example in the [FAQ](https://howsure.org/wager#faq=calculation) in the app.
 
 ---
 
