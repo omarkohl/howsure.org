@@ -4,10 +4,14 @@
 
 <h1 align="center">HowSure Tools</h1>
 
-<p align="center">Calculate fair betting odds for friendly wagers using Brier scoring.</p>
+<p align="center">Small tools for thinking clearly about what you believe, and for backing it with a bet.</p>
 
 [![CI](https://github.com/omarkohl/howsure.org/workflows/CI/badge.svg)](https://github.com/omarkohl/howsure.org/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Purpose
+
+People often disagree, or claim to be sure, without ever saying how sure. HowSure Tools helps you put a number on a belief ("How sure are you?") and then, if you like, settle a friendly wager about it fairly (the wager calculator). The aim is honest, calibrated beliefs and accountability for them.
 
 ## Use It
 
